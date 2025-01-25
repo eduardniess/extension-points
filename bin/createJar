@@ -1,0 +1,4 @@
+rm -rf dist/EPExternalResources/*
+cp -R dist/assets/ dist/EPExternalResources/
+zip -r dist/assets/vite.zip dist/EPExternalResources/
+mv dist/assets/vite.zip dist/assets/vite.jar
