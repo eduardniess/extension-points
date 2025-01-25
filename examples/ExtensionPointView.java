@@ -3,9 +3,9 @@
  *
  * $Id$
  */
-package com.redwood.custom.extensionpoint;
+package custom.extensionpoint;
 
-import com.redwood.custom.extensionpoint.view.View;
+import custom.extensionpoint.view.View;
 
 public class ExtensionPointView
   extends View
