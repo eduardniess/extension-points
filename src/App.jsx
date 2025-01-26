@@ -33,6 +33,7 @@ function App() {
     }).then((response) => response.json())
       .then((data) => {
         setSapSystems(data)
+        setSelectedSapSystem(data.length > 0 ? data[0] : "")
       })
   }
 
@@ -54,6 +55,7 @@ function App() {
       })
       .then((data) => {
         setTemplates(data)
+        setSelectedTemplate(data.length > 0 ? data[0] : "")
       })
   }
 
